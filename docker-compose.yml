@@ -1,5 +1,5 @@
 version: '3.3'
-service: 
+services: 
   backend:
     image: bizhop17/se234-lab10-backend:latest
     ports:
