@@ -1,0 +1,10 @@
+version: '3.3'
+service: 
+  backend:
+    image: bizhop17/se234-lab10-backend:latest
+    ports:
+    - "8082:8080"
+  frontend:
+    image: bizhop17/se234-lab10-client:latest
+    ports:
+    - "8081:80"
