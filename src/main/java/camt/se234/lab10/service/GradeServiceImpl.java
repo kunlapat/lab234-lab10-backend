@@ -14,4 +14,8 @@ public class GradeServiceImpl implements GradeService {
             else if (score >= 33) return "D";
             else return "F";
     }
+    @Override
+    public String getGrade(double midtermScore, double finalScore){
+        return getGrade(midtermScore + finalScore);
+    }
 }
